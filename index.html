@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="developed_by" />
+    <meta name="keywords" content="dom: button" />
+    <!-- links -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- links -->
+
+    <title>Document</title>
+
+  </head>
+
+  <body>
+
+    <header class="header">
+
+      <nav class="header__nav">
+        <div class="header__nav-text">
+          <button type="button" class="increment" onclick="increment()">A++</button>
+          <button type="button" class="standard" onclick="resetText()">Standart</button>
+          <button type="button" class="decrement" onclick="decrement()">A--</button>
+        </div>
+        
+        <div class="header__nav-background">
+          <button type="button" class="change-background" onclick="background()">Background</button>
+          <button type="button" class="day-night" onclick="switchMode()">Day / Night</button>
+        </div>
+      </nav>
+
+    </header>
+
+    <p class="text">Now, starting today, let's start seeing all of our javascript affairs in the site itself, rather than in the console.log.</p>
+
+    <!-- script -->
+    <script src="./index.js"></script>
+    <!-- script -->
+  </body>
+</html>

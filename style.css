@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  transition: 0.5s ease-in-out;
+}
+
+.header {
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 4px 4px gray;
+  background: none;
+}
+
+.header__nav {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+ button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 700;
+  background: none;
+}
+
+.header__nav-text {
+  display: flex;
+  gap: 10px;
+}
+
+.increment {
+  background-color: rgb(21, 21, 21);
+  color: white;
+  border: 2px solid white;
+  border-radius: 50% 0 50% 0;
+  box-shadow: 2px 2px rgb(49, 49, 49);
+}
+
+.increment:hover {
+  color: gray;
+}
+
+.increment:active{
+  border: gray;
+}
+
+.decrement {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  border: 2px solid white;
+  border-radius: 0 50% 0 50%;
+  box-shadow: 2px 2px rgb(49, 49, 49);
+}
+
+.decrement:hover {
+  color: gray;
+}
+
+.decrement:active{
+  border: gray;
+}
+
+.standard {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid white;
+  border-radius: 0 0 40% 40%;
+  box-shadow: 2px 2px rgb(49, 49, 49);
+}
+
+.standard:hover {
+  color: gray;
+}
+
+.standard:active{
+  border: gray;
+}
+
+.header__nav-background {
+  display: flex;
+  gap: 10px;
+}
+
+.change-background {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid white;
+  border-radius: 10%;
+  box-shadow: 2px 2px rgb(49, 49, 49);
+}
+
+.change-background:hover {
+  color: gray;
+}
+
+.change-background:active{
+  border: gray;
+}
+
+.day-night {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid white;
+  border-radius: 10%;
+  box-shadow: 2px 2px rgb(49, 49, 49);
+}
+
+.day-night:hover {
+  color: gray;
+}
+
+.day-night:active{
+  border: gray;
+}
+
+p {
+  margin: 5rem auto 0;
+  width: 1200px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 40px;
+  font-weight: 600;
+} 
